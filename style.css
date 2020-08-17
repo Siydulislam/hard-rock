@@ -25,6 +25,9 @@ body{
 .navbar-toggler {
     border: none;
 }
+.search-bar{
+    margin-bottom: -30px;
+}
 .search-box{
     position: relative;
 }
@@ -37,5 +40,34 @@ body{
 .single-result{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
+    line-height: 14px;
+    height: 300px;
+    overflow: auto;
+    display: none;
 }
-
+.result{
+    border: 0px solid black;
+    font-weight: 400;
+}
+.result h3{
+    font-size: 16px;
+}
+.result p{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.bottom-line{
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.img-fluid{
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.footer{
+    margin-top: 100px;
+    padding: 5px;
+}
